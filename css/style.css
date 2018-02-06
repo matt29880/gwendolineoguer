@@ -42,7 +42,7 @@ body a:hover{
 }
 /*--baner--*/
 .banner {
-	background:url(../images/a.jpg)no-repeat center 0px;
+	background:url(../images/zug.png)no-repeat center 0px;
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
@@ -144,7 +144,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 /*--//top-nav--*/
 /*--about--*/
 .about,.work,.education,.skills,.portfolio,.contact{
-	padding:6em 0;
+	padding:2em 0;
 }
 h3.title {
     font-size: 4em;
@@ -152,7 +152,7 @@ h3.title {
     color: #008B8B;
     border-bottom: 4px double rgba(247, 197, 106, 0.35);
     padding-bottom: 0.2em;
-	margin-bottom: 1em;
+	margin-bottom: 0.3em;
 }
 p {
     font-size: 1em;
@@ -188,6 +188,7 @@ p {
 /*--work--*/
 .work {
     background: #eeeeec;
+    padding-bottom: 20px;
 }
 .work-left {
     text-align: right;
@@ -278,16 +279,32 @@ p {
 }
 /*--//work--*/
 /*--education--*/
+.education {
+	background:#fff;
+}
 .education .work-info h5 {
-    /*color: #000;*/
+	/*color:#000;*/
 }
 /*--//education--*/
 /*--skills--*/
 .skills{
-	background:#000;
+	/*background:#000;*/
+    background: #eeeeec;
 }
 .bar-grids {
     padding: 0 4em;
+}
+
+.skills-info h6 {	
+    font-size: 1.2em;
+    background: darkcyan;
+    display: inline-block;
+    padding: .6em 1.2em;
+    color: #fff;
+    margin-bottom: 1em;
+}
+.skills-info ul {
+	margin-left: 20px;
 }
 .progress {
     height: 10px;
@@ -297,16 +314,16 @@ p {
 .progress-bar { 
     background-color: #766E04;
 }
-.bar-grids h6 {
-    font-size: 1.1em;
-    color: #fff;
-    margin-bottom: 0.6em;
-}
-.bar-grids h6 span {
-    float: right;
-    font-size: 0.9em;
-}
 /*--//skills--*/
+
+/*--hobbies--*/
+.hobbies {
+	background:#fff;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+/*--//education--*/
+
 /*--portfolio--*/
 /*--SAP--*/
 ul.resp-tabs-list {  
@@ -319,7 +336,7 @@ background: #F7E612;
 }
 .tab_box{
 	background:#fd926d;
-	padding: 2em;
+	padding: 1em;
 }
 .top1{
 	margin-top: 2%;
@@ -511,7 +528,7 @@ h2.resp-accordion {
 /*--//portfolio--*/
 /*--contact--*/
 .contact{
-	background:#000;
+    background: #eeeeec;
 }
 .contact-left iframe {
     width: 100%;
@@ -532,11 +549,11 @@ h2.resp-accordion {
     width: 46%;
 }
 .contact p {
-    color: #fff;
+    color: #000;
     font-weight: 300;
 }
 .contact p a {
-    color: #fff;
+    color: #000;
 }
 .contact p a:hover{
     color: #F7E612;
@@ -660,7 +677,7 @@ h2.resp-accordion {
 /*---- responsive-design -----*/
 @media(max-width:1366px){
 .about,.work,.education,.skills,.portfolio,.contact {
-    padding: 5em 0;
+    padding: 2em 0;
 }
 .work-right.work-right2 {
     min-height: 200px;
@@ -684,7 +701,7 @@ ul.address li ul.address-text li {
 }
 h3.title {
     font-size: 3.6em;
-	margin-bottom: 0.8em;
+	margin-bottom: 0.3em;
 }
 .about-right {
     padding-left: 1em;
@@ -816,7 +833,7 @@ h3.title {
 }
 h3.title {
     font-size: 3.3em;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.3em;
 }
 #swipebox-title {
     font-size: 0.9em;
@@ -863,14 +880,14 @@ ul.address {
     margin-top: 0.5em;
 }
 .banner-info {
-    padding: 2em 0;
+    padding: 1em 0;
 }
 .about, .work, .education, .skills, .portfolio, .contact {
-    padding: 2em 0;
+    padding: 1em 0;
 }
 h3.title {
     font-size: 2.8em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
 }
 .about-left {
     float: none;
